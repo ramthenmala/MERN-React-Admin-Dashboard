@@ -13,7 +13,7 @@ const connectMongoDB = async (PORT) => {
         app.listen(PORT, async () => {
             console.log(`http://localhost:${PORT}`)
         });
-        User.insertMany(dataUser)
+        //User.insertMany(dataUser)
     } catch (error) {
         console.log(`${error} did not connect`)
         process.exit(1)
