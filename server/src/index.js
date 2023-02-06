@@ -12,9 +12,6 @@ import salesRoutes from './routes/sales.js'
 import connectMongoDB from './utils/connect.js';
 import User from './models/User.js';
 
-import { dataUser } from './data/index.js'
-import mongoose from 'mongoose';
-
 // Configuration
 dotenv.config();
 const app = express();
