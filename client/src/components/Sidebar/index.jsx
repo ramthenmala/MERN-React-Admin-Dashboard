@@ -111,8 +111,6 @@ const Sidebar = ({
 
   useEffect(() => {
     setActive(pathname.substring(1));
-    console.log("pathname.substring(1) ====== ", pathname.substring(1));
-    console.log("pathname ====== ", pathname);
   }, [pathname]);
 
   return (
